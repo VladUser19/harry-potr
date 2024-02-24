@@ -1,0 +1,44 @@
+.character {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 20px;
+}
+
+.character {
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 150px 1fr;
+	grid-gap: 10px;
+	alight-item: center;
+	color: white;
+	font-weight: 100;
+}
+
+.char__artwork {
+	width: 100%;
+}
+
+.gryfindor {
+	color: red;
+	text-shadow: 0 0 1px white;
+}
+
+.sluserun {
+	color: rgb(86, 219, 121);
+	text-shadow: 0 0 1px white;
+}
+
+.char__artwork:hover {
+	cursor: help;
+    position: relative;
+    transform: scale(5.3);
+    box-shadow: 0 0 5px white;
+    transition: 5s;
+}
+
+h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
